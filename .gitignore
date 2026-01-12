@@ -1,0 +1,91 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# KEEP the example file
+!.env.example
+
+# Database
+trustpilot.db
+trustpilot.db-journal
+*.db
+*.db-journal
+
+# Google OAuth credentials
+credentials.json
+token.pickle
+
+# Generated reports (if any)
+*.pdf
+*.html
+!report_template.html
+
+# Logs
+*.log
+daily.log
+weekly.log
+automation.log
+scraper.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+test_*.json
+test_*.py
+test_*.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Migration scripts (can delete after running)
+migrate_*.py
+
+# Keep these important files
+!tp_topics.json
+!requirements.txt
+!requirements_minimal.txt
+!README.md
+!.env.example
+!.gitignore
