@@ -15,6 +15,7 @@ trustpilot.db-journal
 # Google OAuth credentials
 credentials.json
 token.pickle
+token.json
 
 # Generated reports (if any)
 *.pdf
